@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.flexCenter{
+    justify-content: center;
+    align-items: center;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.allBackground{
+    margin: 40px 40px;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed; */
+    background-size: 100% 100%;
+    height: 750px;
+}
+
+.firstSection{
+    background-image: url("pciture/firstSection.jpg");
+}
+
+.firstSection nav{
+    text-align: right;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.firstSection nav a{
+    text-decoration: none;
+    color: grey;
+}
+
+.firstSection div{
+    width: 33%;
+    height: 600px;
+    flex-direction: column;
+}
+
+.firstSection div p{
+    padding: 20px 20px;
+}
+
+.firstSection div h1{
+    font-weight: bold;
+}
+
+.firstSection div h1 span{
+    color: grey;
+    font-weight: normal;
+}
+
+.secondSection{
+    background-image: url("pciture/secondSection_06.jpg");
+}
+
+.secondSection .wraper{
+    height: 750px;
+    flex-direction: column;
+}
+
+.title ul{
+    list-style: none;
+}
+
+.title ul li{
+    display: inline-block;
+}
+
+.title li:first-child{
+    width: 100px;
+    border-bottom: 2px solid grey;
+    vertical-align: super;
+}
+
+.title li:last-child{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.social{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.social a{
+    text-decoration: none;
+    color: grey;
+}
+
+.fa-facebook-official:hover{
+    color: #3b5998;
+    transition: color 0.5s;
+}
+
+.fa-twitter-square:hover{
+    color: #55acee;
+    transition: color 0.5s;
+}
+
+.fa-instagram:hover{
+    color: #e95950;
+    transition: color 0.5s;
+}
+
+.fa-youtube-play:hover{
+    color: #bb0000;
+    transition: color 0.5s;
+}
+
+.thirdSection{
+    background-image: url("pciture/thirdSection_03.jpg");
+    position: relative;
+}
+
+.button{
+    width: 60px;
+    height: 60px;
+    background-color: lightgrey;
+}
+
+.buttonLeft{
+    top: 50%;
+    left: 20px;
+    z-index: 1;
+}
+
+.buttonRight{
+    top: 50%;
+    right: 20px;
+    z-index: 1;
+}
+
+.linkButton{
+     height: 50px;
+     width: 50px;
+     text-decoration: none;
+     color: black;
+ }
+
+.linkButton:hover{
+    text-decoration: none;
+}
+
+.fourthSection{
+    background-image: url("pciture/fourthSection_03.jpg");
+}
+
+.pictureSection{
+    height: 750px;
+}
+
+.fourthSection img{
+    width: 500px;
+    height: 300px;
+}
+
+.fourthSectionText{
+    flex-direction: column;
+    height: 750px;
+    padding-top: 150px;
+}
+
+.fourthSectionText p:first-child{
+    font-size: 30px;
+}
+
+.fourthSectionText p:first-child span{
+    font-weight: bold;
+}
+
+.fourthSectionText p:last-child{
+    border-left: 3px solid lightgrey;
+    height: 150px;
+}
+
+.fourthSectionText p:nth-child(2){
+    font-size: 20px;
+}
+
+.fifthSection{
+    background-image: url("pciture/fifthSection_03.jpg");
+    position: relative;
+    height: 750px;
+}
+
+.pictureTwo{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 1;
+}
+
+.pictureOne{
+    top: 225px;
+    left: 65px;
+ }
+
+.pictureThree{
+    top: 225px;
+    right: 65px;
+}
+
+.sixthSection{
+    background-image: url("pciture/sixthSection_03.jpg");
+}
+
+.sixthSectionText{
+   flex-direction: column;
+    padding: 0 100px;
+}
+
+.sixthSectionText p:first-child{
+    font-size: 40px;
+}
+
+.sixthSectionText p:last-child{
+    font-size: 20px;
+    padding: 0 200px;
+    text-align: center;
+}
+
+.sixthSectionText p span{
+   font-weight: bold;
+}
+
+form{
+   flex-direction: column;
+    padding: 50px 50px;
+
+}
+
+input{
+    margin: 20px 20px;
+    border: 2px solid #000000;
+}
+
+.inputContainer{
+    margin: 20px 20px;
+    width: 441px;
+}
+
+.inputContainer input{
+    margin: 0 0;
+    width: 203px;
+}
+
+.inputContainer input:last-child{
+    margin-left: 30px;
+}
+
+textarea{
+    border: 2px solid #000000;
+}
+
+.message{
+    width: 447px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0 0;
+}
